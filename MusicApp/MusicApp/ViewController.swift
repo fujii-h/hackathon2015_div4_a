@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion //To use motion func!!
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,13 @@ class ViewController: UIViewController {
     
     // create instance of MotionManager
     let motionManager: CMMotionManager = CMMotionManager()
+    
+    
+    //音声再生に関するやつ
+    var audioPlayer = AVAudioPlayer()
+    
+    //音源の取得
+    let sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +44,17 @@ class ViewController: UIViewController {
             self.accelLevelVal.text = String(format: "%d",self.accelLevel(syntheticTmp))
             
         })
+        
+        //音楽再生に関する初期設定
+        audioPlayer = AVAudioPlayer(contentsOfURL: sound_data, error: nil)
+        
+        audioPlayer.enableRate = true
+        audioPlayer.numberOfLoops = -1  //これで音楽ファイルを無限ループにしている
+        audioPlayer.prepareToPlay()
+        
+        //音楽再生
+        audioPlayer.play()
+        println("音楽スタート")
     }
     
     //AccelLevel selection and return Int num
@@ -43,17 +62,29 @@ class ViewController: UIViewController {
         
         var num=1
         
+        
+        //音楽再生のレベル5段階
         switch level {
         case 0.0...0.5 :
             num = 1
+            audioPlayer.rate = 1.0
+            println("レベル1")
         case 0.5...1.0 :
             num = 2
+            audioPlayer.rate = 1.2
+            println("レベル2")
         case 1.0...1.5 :
             num = 3
+            audioPlayer.rate = 1.4
+            println("レベル3")
         case 1.5...2.0 :
             num = 4
+            audioPlayer.rate = 1.6
+            println("レベル4")
         case 2.0...2.5 :
             num = 5
+            audioPlayer.rate = 1.8
+            println("レベル5")
         default :
             break
         }
