@@ -15,6 +15,8 @@
 		4EED6B341BAAC1EE0037AEDB /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED6B331BAAC1EE0037AEDB /* MusicAppTests.swift */; };
 		4EED6B6C1BAADFB10037AEDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED6B6B1BAADFB10037AEDB /* AVFoundation.framework */; };
 		4EED6B701BAADFF10037AEDB /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B6F1BAADFF10037AEDB /* test.mp3 */; };
+		4EED6B721BAAF93F0037AEDB /* test@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B711BAAF93F0037AEDB /* test@2x.jpg */; };
+		4EED6B741BAAF9A10037AEDB /* test2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B731BAAF9A10037AEDB /* test2@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		4EED6B331BAAC1EE0037AEDB /* MusicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppTests.swift; sourceTree = "<group>"; };
 		4EED6B6B1BAADFB10037AEDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4EED6B6F1BAADFF10037AEDB /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		4EED6B711BAAF93F0037AEDB /* test@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test@2x.jpg"; sourceTree = "<group>"; };
+		4EED6B731BAAF9A10037AEDB /* test2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test2@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				4EED6B6F1BAADFF10037AEDB /* test.mp3 */,
+				4EED6B711BAAF93F0037AEDB /* test@2x.jpg */,
+				4EED6B731BAAF9A10037AEDB /* test2@2x.jpg */,
 				4EED6B1D1BAAC1EE0037AEDB /* AppDelegate.swift */,
 				4EED6B1F1BAAC1EE0037AEDB /* ViewController.swift */,
 				4EED6B211BAAC1EE0037AEDB /* Main.storyboard */,
@@ -200,9 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EED6B231BAAC1EE0037AEDB /* Main.storyboard in Resources */,
+				4EED6B721BAAF93F0037AEDB /* test@2x.jpg in Resources */,
 				4EED6B281BAAC1EE0037AEDB /* LaunchScreen.xib in Resources */,
 				4EED6B701BAADFF10037AEDB /* test.mp3 in Resources */,
 				4EED6B251BAAC1EE0037AEDB /* Images.xcassets in Resources */,
+				4EED6B741BAAF9A10037AEDB /* test2@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
