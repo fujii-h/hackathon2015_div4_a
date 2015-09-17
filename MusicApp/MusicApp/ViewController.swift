@@ -76,19 +76,19 @@ class ViewController: UIViewController {
             println("レベル1")
         case 0.5...1.0 :
             num = 2
-            if !timerFlag { audioPlayer.rate = 1.1 } else { musicNum = 2 }
+            if !timerFlag { audioPlayer.rate = 1.2 } else { musicNum = 2 }
             println("レベル2")
         case 1.0...1.5 :
             num = 3
-            if !timerFlag { audioPlayer.rate = 1.2 } else { musicNum = 3 }
+            if !timerFlag { audioPlayer.rate = 1.4 } else { musicNum = 3 }
             println("レベル3")
         case 1.5...2.0 :
             num = 4
-            if !timerFlag { audioPlayer.rate = 1.3 } else { musicNum = 4 }
+            if !timerFlag { audioPlayer.rate = 1.6 } else { musicNum = 4 }
             println("レベル4")
         case 2.0...2.5 :
             num = 5
-            if !timerFlag { audioPlayer.rate = 1.4 } else { musicNum = 5 }
+            if !timerFlag { audioPlayer.rate = 1.8 } else { musicNum = 5 }
             println("レベル5")
         default :
             break
