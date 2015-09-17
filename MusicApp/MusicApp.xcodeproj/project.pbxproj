@@ -13,6 +13,8 @@
 		4EED6B251BAAC1EE0037AEDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B241BAAC1EE0037AEDB /* Images.xcassets */; };
 		4EED6B281BAAC1EE0037AEDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B261BAAC1EE0037AEDB /* LaunchScreen.xib */; };
 		4EED6B341BAAC1EE0037AEDB /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED6B331BAAC1EE0037AEDB /* MusicAppTests.swift */; };
+		4EED6B6C1BAADFB10037AEDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED6B6B1BAADFB10037AEDB /* AVFoundation.framework */; };
+		4EED6B701BAADFF10037AEDB /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED6B6F1BAADFF10037AEDB /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4EED6B2D1BAAC1EE0037AEDB /* MusicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EED6B321BAAC1EE0037AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EED6B331BAAC1EE0037AEDB /* MusicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppTests.swift; sourceTree = "<group>"; };
+		4EED6B6B1BAADFB10037AEDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EED6B6F1BAADFF10037AEDB /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EED6B6C1BAADFB10037AEDB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		4EED6B0F1BAAC1EE0037AEDB = {
 			isa = PBXGroup;
 			children = (
+				4EED6B6B1BAADFB10037AEDB /* AVFoundation.framework */,
 				4EED6B1A1BAAC1EE0037AEDB /* MusicApp */,
 				4EED6B301BAAC1EE0037AEDB /* MusicAppTests */,
 				4EED6B191BAAC1EE0037AEDB /* Products */,
@@ -77,6 +83,7 @@
 		4EED6B1A1BAAC1EE0037AEDB /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				4EED6B6F1BAADFF10037AEDB /* test.mp3 */,
 				4EED6B1D1BAAC1EE0037AEDB /* AppDelegate.swift */,
 				4EED6B1F1BAAC1EE0037AEDB /* ViewController.swift */,
 				4EED6B211BAAC1EE0037AEDB /* Main.storyboard */,
@@ -194,6 +201,7 @@
 			files = (
 				4EED6B231BAAC1EE0037AEDB /* Main.storyboard in Resources */,
 				4EED6B281BAAC1EE0037AEDB /* LaunchScreen.xib in Resources */,
+				4EED6B701BAADFF10037AEDB /* test.mp3 in Resources */,
 				4EED6B251BAAC1EE0037AEDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				4EED6B391BAAC1EE0037AEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EED6B3A1BAAC1EE0037AEDB /* Build configuration list for PBXNativeTarget "MusicAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				4EED6B3C1BAAC1EE0037AEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
