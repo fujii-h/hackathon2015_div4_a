@@ -40,6 +40,9 @@
                                 <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mjJ-JA-vpD">
+                                <rect key="frame" x="35" y="209" width="250" height="250"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -47,10 +50,14 @@
                     <connections>
                         <outlet property="Synthetic_val" destination="x3S-tT-1lO" id="1ym-KL-bQI"/>
                         <outlet property="accelLevelVal" destination="F6T-Cm-58u" id="6KI-rD-ALv"/>
+                        <outlet property="musicImg" destination="mjJ-JA-vpD" id="gTI-sO-RdQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="test.jpg" width="125" height="125"/>
+    </resources>
 </document>
