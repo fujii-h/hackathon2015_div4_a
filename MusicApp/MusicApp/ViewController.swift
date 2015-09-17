@@ -54,6 +54,7 @@ class ViewController: UIViewController {
         
         //音楽再生
         audioPlayer.play()
+        println("音楽スタート")
     }
     
     //AccelLevel selection and return Int num
