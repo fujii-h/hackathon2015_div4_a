@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0019902C8120CD9628B6801062A2CF30 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF752FD1FF6BD64E61AF1B40AEE535C0 /* MobileCoreServices.framework */; };
+		0204C517A49DB94384D227B34172BEB4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FBA8A95437A988ED31E1DFDA63296E /* ImageIO.framework */; };
+		1F3B3D17CDD9B263D468421B201519AE /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97BEA1EE93AAA6074593278D85FE91 /* FLAnimatedImage.m */; };
+		289C605DCC667F0C35277C20E53F039C /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E8E9472BCCA5047B3E4796E2EE88A3 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290B9B1E25994B166E69681D71F24031 /* Pods-MusicApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C255BFB8898104D373169F91783FC6 /* Pods-MusicApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB95DB06124753CC1408F43987FBEE1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196A582E58DBDAD3C43CF37E138DC366 /* QuartzCore.framework */; };
+		5FEB966F3CB1396F97D83FB048DEA340 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 27531A7C323FF9F23C34255A0DD0BDEC /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		711A72E5B01209F47A3965165826F48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6DAA234133717FFBC03C8012EDBFE2 /* CoreGraphics.framework */; };
+		72104A0B978E536A094866DE88D4137D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9084370187A69836B3F89D6040F56213 /* Foundation.framework */; };
+		793DD5F247330F0223D42B32CE41987A /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FE642AE753234B073FC8E9DC5A1CBF /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F446B46965E03118841C929C68844C2 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B6E7F935DDED021C2A84E2E7298521 /* FLAnimatedImageView.m */; };
+		AED16496BBA5EDFEA5E56E5A40985033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9084370187A69836B3F89D6040F56213 /* Foundation.framework */; };
+		D66E8DA5CBF906ED5736D98817461048 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A161E636E71B3F8C39180C03C69E6AE /* FLAnimatedImage-dummy.m */; };
+		D6D13D493011C0E60BF8A58EBF3C0A50 /* Pods-MusicApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED76D920FA32F86044459469EA8FC7D /* Pods-MusicApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D0D31461878A6B55A9AC4B195F9B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A87119778C9F201B1A2CA70C5F3B633;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118DA0F68A7A7C30BB176F9994DCF1C8 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		166C3B5BA95204C03663E74D1E577277 /* Pods-MusicApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MusicApp.modulemap"; sourceTree = "<group>"; };
+		196A582E58DBDAD3C43CF37E138DC366 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1B6DAA234133717FFBC03C8012EDBFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		27531A7C323FF9F23C34255A0DD0BDEC /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		2A161E636E71B3F8C39180C03C69E6AE /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		2B7867CD3501307BD2BEADADA4800072 /* Pods-MusicApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-resources.sh"; sourceTree = "<group>"; };
+		30C255BFB8898104D373169F91783FC6 /* Pods-MusicApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicApp-umbrella.h"; sourceTree = "<group>"; };
+		49FE642AE753234B073FC8E9DC5A1CBF /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		54E8E9472BCCA5047B3E4796E2EE88A3 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
+		57F35636DE15946DF4E9CEE06CC6BC2F /* Pods-MusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7F2746E61AEA1063A340ABF088A6A6 /* Pods-MusicApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		76FBA8A95437A988ED31E1DFDA63296E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		81AFF2A09535067AB12467E15B90C82F /* Pods_MusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CCF51F3134D3CB1D66130874E111BE /* Pods-MusicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicApp.release.xcconfig"; sourceTree = "<group>"; };
+		89134421E0632D8911F227912BE16077 /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
+		903DC34E87D2D96E084A727830DACF46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9084370187A69836B3F89D6040F56213 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		988CCFF5182618E577A3AEFB24168881 /* Pods-MusicApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicApp-frameworks.sh"; sourceTree = "<group>"; };
+		AA97BEA1EE93AAA6074593278D85FE91 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		B6F65BDCCFA63203DF012A8D0D1EED74 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C73F448FDAF242975B7CB83B6C3D4BE2 /* Pods-MusicApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CED76D920FA32F86044459469EA8FC7D /* Pods-MusicApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicApp-dummy.m"; sourceTree = "<group>"; };
+		D8091F7DB131AC3D0AD5EF28200AB382 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF752FD1FF6BD64E61AF1B40AEE535C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F70560953683E067C544B44B16FD2B90 /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		F9B6E7F935DDED021C2A84E2E7298521 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FD48D2E499A44933550E97B9C0C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72104A0B978E536A094866DE88D4137D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B644084223231DD6C37D64216010EE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A72E5B01209F47A3965165826F48C /* CoreGraphics.framework in Frameworks */,
+				AED16496BBA5EDFEA5E56E5A40985033 /* Foundation.framework in Frameworks */,
+				0204C517A49DB94384D227B34172BEB4 /* ImageIO.framework in Frameworks */,
+				0019902C8120CD9628B6801062A2CF30 /* MobileCoreServices.framework in Frameworks */,
+				2CB95DB06124753CC1408F43987FBEE1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B6F5E9A2C64A11B50CB0D952C226CB /* Pods-MusicApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8091F7DB131AC3D0AD5EF28200AB382 /* Info.plist */,
+				166C3B5BA95204C03663E74D1E577277 /* Pods-MusicApp.modulemap */,
+				C73F448FDAF242975B7CB83B6C3D4BE2 /* Pods-MusicApp-acknowledgements.markdown */,
+				6E7F2746E61AEA1063A340ABF088A6A6 /* Pods-MusicApp-acknowledgements.plist */,
+				CED76D920FA32F86044459469EA8FC7D /* Pods-MusicApp-dummy.m */,
+				988CCFF5182618E577A3AEFB24168881 /* Pods-MusicApp-frameworks.sh */,
+				2B7867CD3501307BD2BEADADA4800072 /* Pods-MusicApp-resources.sh */,
+				30C255BFB8898104D373169F91783FC6 /* Pods-MusicApp-umbrella.h */,
+				57F35636DE15946DF4E9CEE06CC6BC2F /* Pods-MusicApp.debug.xcconfig */,
+				87CCF51F3134D3CB1D66130874E111BE /* Pods-MusicApp.release.xcconfig */,
+			);
+			name = "Pods-MusicApp";
+			path = "Target Support Files/Pods-MusicApp";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C6CCCB651748D5C7261128E71C2F33C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		247CF145CC342D4CF3DB45541C494B2A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B6F5E9A2C64A11B50CB0D952C226CB /* Pods-MusicApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42A990CA94FCEE1D455A1D8F35D73E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6F65BDCCFA63203DF012A8D0D1EED74 /* FLAnimatedImage.framework */,
+				81AFF2A09535067AB12467E15B90C82F /* Pods_MusicApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56738C3A6535F8705497A3B4ACCE6BA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66AF513E44755D9E5BCB9C221E86868E /* FLAnimatedImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C6CCCB651748D5C7261128E71C2F33C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B6DAA234133717FFBC03C8012EDBFE2 /* CoreGraphics.framework */,
+				9084370187A69836B3F89D6040F56213 /* Foundation.framework */,
+				76FBA8A95437A988ED31E1DFDA63296E /* ImageIO.framework */,
+				DF752FD1FF6BD64E61AF1B40AEE535C0 /* MobileCoreServices.framework */,
+				196A582E58DBDAD3C43CF37E138DC366 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66AF513E44755D9E5BCB9C221E86868E /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				27531A7C323FF9F23C34255A0DD0BDEC /* FLAnimatedImage.h */,
+				AA97BEA1EE93AAA6074593278D85FE91 /* FLAnimatedImage.m */,
+				49FE642AE753234B073FC8E9DC5A1CBF /* FLAnimatedImageView.h */,
+				F9B6E7F935DDED021C2A84E2E7298521 /* FLAnimatedImageView.m */,
+				92422A40EA54DD35F670E791D31933E4 /* Support Files */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				56738C3A6535F8705497A3B4ACCE6BA2 /* Pods */,
+				42A990CA94FCEE1D455A1D8F35D73E57 /* Products */,
+				247CF145CC342D4CF3DB45541C494B2A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92422A40EA54DD35F670E791D31933E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				118DA0F68A7A7C30BB176F9994DCF1C8 /* FLAnimatedImage.modulemap */,
+				89134421E0632D8911F227912BE16077 /* FLAnimatedImage.xcconfig */,
+				2A161E636E71B3F8C39180C03C69E6AE /* FLAnimatedImage-dummy.m */,
+				F70560953683E067C544B44B16FD2B90 /* FLAnimatedImage-prefix.pch */,
+				54E8E9472BCCA5047B3E4796E2EE88A3 /* FLAnimatedImage-umbrella.h */,
+				903DC34E87D2D96E084A727830DACF46 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA7D487E5D1F8E47A3C096EC1BD3F6DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289C605DCC667F0C35277C20E53F039C /* FLAnimatedImage-umbrella.h in Headers */,
+				5FEB966F3CB1396F97D83FB048DEA340 /* FLAnimatedImage.h in Headers */,
+				793DD5F247330F0223D42B32CE41987A /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ACAC3F4BD20A0DE7CCB932B74DFF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290B9B1E25994B166E69681D71F24031 /* Pods-MusicApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E5CD438F3B70308D003B7DF0C385236 /* Pods-MusicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1E532BDE4810CEF4CA46578ED7D96F /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */;
+			buildPhases = (
+				7567FAA43C1D04C1A0338FBE04605C67 /* Sources */,
+				44FD48D2E499A44933550E97B9C0C137 /* Frameworks */,
+				AC0ACAC3F4BD20A0DE7CCB932B74DFF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFE5FE0205BFE14BEDB0F2A447C28BF /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicApp";
+			productName = "Pods-MusicApp";
+			productReference = 81AFF2A09535067AB12467E15B90C82F /* Pods_MusicApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A87119778C9F201B1A2CA70C5F3B633 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC832638F866DE16666AB91D62238C4 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				0A824C5252CDF629215CEE64FC545B82 /* Sources */,
+				B644084223231DD6C37D64216010EE2E /* Frameworks */,
+				AA7D487E5D1F8E47A3C096EC1BD3F6DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = B6F65BDCCFA63203DF012A8D0D1EED74 /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42A990CA94FCEE1D455A1D8F35D73E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A87119778C9F201B1A2CA70C5F3B633 /* FLAnimatedImage */,
+				1E5CD438F3B70308D003B7DF0C385236 /* Pods-MusicApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A824C5252CDF629215CEE64FC545B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E8DA5CBF906ED5736D98817461048 /* FLAnimatedImage-dummy.m in Sources */,
+				1F3B3D17CDD9B263D468421B201519AE /* FLAnimatedImage.m in Sources */,
+				8F446B46965E03118841C929C68844C2 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7567FAA43C1D04C1A0338FBE04605C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D13D493011C0E60BF8A58EBF3C0A50 /* Pods-MusicApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EFE5FE0205BFE14BEDB0F2A447C28BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 9A87119778C9F201B1A2CA70C5F3B633 /* FLAnimatedImage */;
+			targetProxy = A3D0D31461878A6B55A9AC4B195F9B53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1011BA00941112EC07D8F0E3A4FD9C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F35636DE15946DF4E9CEE06CC6BC2F /* Pods-MusicApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp/Pods-MusicApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MusicApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C928ED720385203B2BF99A2A062DFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CCF51F3134D3CB1D66130874E111BE /* Pods-MusicApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicApp/Pods-MusicApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MusicApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49EFAA3DDBDB0C9156D589D3B28EBBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89134421E0632D8911F227912BE16077 /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.8;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6CF163736F725CB53C044BF02BCE982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89134421E0632D8911F227912BE16077 /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.8;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC832638F866DE16666AB91D62238C4 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFAA3DDBDB0C9156D589D3B28EBBC8 /* Debug */,
+				B6CF163736F725CB53C044BF02BCE982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1E532BDE4810CEF4CA46578ED7D96F /* Build configuration list for PBXNativeTarget "Pods-MusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1011BA00941112EC07D8F0E3A4FD9C3E /* Debug */,
+				3C928ED720385203B2BF99A2A062DFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
