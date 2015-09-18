@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     
     var musicNum = 1
     var maxMusicNum = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
