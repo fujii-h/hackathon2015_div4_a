@@ -33,8 +33,11 @@ class ViewController: UIViewController {
     var timerFlag: Bool = true
     var soundNum: Int = 0
     
-    let image1 = UIImage(named: "test@2x.jpg")
-    let image2 = UIImage(named: "test2@2x.jpg")
+    let image1 = UIImage(named: "mp3_001@2x.jpg")
+    let image2 = UIImage(named: "mp3_002@2x.jpg")
+    let image3 = UIImage(named: "mp3_003@2x.jpg")
+    let image4 = UIImage(named: "mp3_004@2x.jpg")
+    let image5 = UIImage(named: "mp3_005@2x.jpg")
     
     var musicNum = 1
     var maxMusicNum = 1
@@ -76,19 +79,19 @@ class ViewController: UIViewController {
             println("レベル1")
         case 0.5...1.0 :
             num = 2
-            if !timerFlag { audioPlayer.rate = 1.2 } else { musicNum = 2 }
+            if !timerFlag { audioPlayer.rate = 1.1 } else { musicNum = 2 }
             println("レベル2")
         case 1.0...1.5 :
             num = 3
-            if !timerFlag { audioPlayer.rate = 1.4 } else { musicNum = 3 }
+            if !timerFlag { audioPlayer.rate = 1.2 } else { musicNum = 3 }
             println("レベル3")
         case 1.5...2.0 :
             num = 4
-            if !timerFlag { audioPlayer.rate = 1.6 } else { musicNum = 4 }
+            if !timerFlag { audioPlayer.rate = 1.3 } else { musicNum = 4 }
             println("レベル4")
         case 2.0...2.5 :
             num = 5
-            if !timerFlag { audioPlayer.rate = 1.8 } else { musicNum = 5 }
+            if !timerFlag { audioPlayer.rate = 1.4 } else { musicNum = 5 }
             println("レベル5")
         default :
             break
@@ -102,25 +105,25 @@ class ViewController: UIViewController {
         //1~5で選曲する
         switch maxMusicNum {
         case 1:
-            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
+            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("001", ofType: "mp3")!)
             musicImg = UIImageView(image: image1)
             println("レベル1の曲を選曲しました")
         case 2:
-            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
+            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("002", ofType: "mp3")!)
             musicImg = UIImageView(image: image2)
             println("レベル2の曲を選曲しました")
             
         case 3:
-            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
-            musicImg = UIImageView(image: image1)
+            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("003", ofType: "mp3")!)
+            musicImg = UIImageView(image: image3)
             println("レベル3の曲を選曲しました")
         case 4:
-            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
-            musicImg = UIImageView(image: image2)
+            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("004", ofType: "mp3")!)
+            musicImg = UIImageView(image: image4)
             println("レベル4の曲を選曲しました")
         case 5:
-            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("test", ofType: "mp3")!)
-            musicImg = UIImageView(image: image1)
+            sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("005", ofType: "mp3")!)
+            musicImg = UIImageView(image: image5)
             println("レベル5の曲を選曲しました")
         default :
             break
